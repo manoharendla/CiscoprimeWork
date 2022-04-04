@@ -1,2 +1,61 @@
 # CiscoprimeWork
 Cisco prime work
+
+## List of API END points
+`<queryResponse responseType="listEntityTypes" requestUrl="https://prime/webacs/api/v4/data?.full=true" rootUrl="https://prime/webacs/api/v4/data" domain="ROOT-DOMAIN">
+  <entityType url="https://prime/webacs/api/v4/data/AccessPointDetails">AccessPointDetails</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/AccessPoints">AccessPoints</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Alarms">Alarms</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ApOnboardingProfile">ApOnboardingProfile</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ApiHealthRecords">ApiHealthRecords</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ApiResponseTimeSummary">ApiResponseTimeSummary</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Applications">Applications</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/AutoApRadioDetails">AutoApRadioDetails</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/BulkSanitizedConfigArchives">BulkSanitizedConfigArchives</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/BulkUnsanitizedConfigArchives">BulkUnsanitizedConfigArchives</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/CliTemplate">CliTemplate</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ClientCounts">ClientCounts</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ClientDetails">ClientDetails</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ClientSessions">ClientSessions</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ClientStats">ClientStats</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ClientTraffics">ClientTraffics</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Clients">Clients</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ConfigArchives">ConfigArchives</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ConfigVersions">ConfigVersions</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Devices">Devices</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Events">Events</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/GroupSpecification">GroupSpecification</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/GuestUsers">GuestUsers</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalClientCounts">HistoricalClientCounts</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalClientStats">HistoricalClientStats</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalClientTraffics">HistoricalClientTraffics</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalRFCounters">HistoricalRFCounters</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalRFLoadStats">HistoricalRFLoadStats</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalRFStats">HistoricalRFStats</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalWLCCPUUtilizations">HistoricalWLCCPUUtilizations</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/HistoricalWLCMemUtilizations">HistoricalWLCMemUtilizations</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/InventoryDetails">InventoryDetails</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/JobSummary">JobSummary</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/MacFilterTemplates">MacFilterTemplates</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/MerakiAccessPoints">MerakiAccessPoints</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/MerakiDevices">MerakiDevices</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/RFCounters">RFCounters</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/RFLoadStats">RFLoadStats</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/RFStats">RFStats</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/RadioDetails">RadioDetails</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Radios">Radios</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/RogueApAlarms">RogueApAlarms</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/RogueApDetectionHistory">RogueApDetectionHistory</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ServiceDomains">ServiceDomains</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/Syslogs">Syslogs</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/ThirdpartyAccessPoints">ThirdpartyAccessPoints</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/UserDefinedFieldDefinition">UserDefinedFieldDefinition</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/VDAssociatedAccessPoints">VDAssociatedAccessPoints</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/VDAssociatedDevices">VDAssociatedDevices</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/VDAssociatedDynamicGroups">VDAssociatedDynamicGroups</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/VDAssociatedGroups">VDAssociatedGroups</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/VDAssociatedSiteMaps">VDAssociatedSiteMaps</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/VDAssociatedVirtualElements">VDAssociatedVirtualElements</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/WLCCPUUtilizations">WLCCPUUtilizations</entityType>
+  <entityType url="https://prime/webacs/api/v4/data/WLCMemoryUtilizations">WLCMemoryUtilizations</entityType>
+  `
